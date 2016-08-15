@@ -1,0 +1,60 @@
+body {
+	background-color: #2a77db;
+	opacity: 50%;
+}
+
+h1 {
+	color: #2a77db;
+	font-size: 48px;
+	text-align: center;
+}
+
+.main {
+	background-color: white;
+	border-radius: 5px;
+	margin: 0 auto;
+	padding: 10px;
+	width: 600px;
+	height: 1000px;
+	overflow: scroll;
+
+}
+
+.about {
+	text-align: center;
+	font-size: 16px;
+}
+
+#search-term {
+	text-align: center;
+	background-color: white;
+	margin: 0 auto;
+}
+
+#search-results {
+	margin: 0 auto;
+	border-color: black;
+}
+
+ul {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#search-results li {
+	text-align: center;
+	list-style: none;
+	float: left;
+	background-color: #ffcc00;
+	border-radius: 3px;
+}
+
+#search-results li img{
+	display: block;
+	width: 100%;
+}
+
+#search-results li p{
+	text-align: center;
+	color: black;
+}
