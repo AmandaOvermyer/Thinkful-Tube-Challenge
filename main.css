@@ -1,6 +1,5 @@
 body {
 	background-color: #2a77db;
-	opacity: 50%;
 }
 
 h1 {
@@ -15,9 +14,13 @@ h1 {
 	margin: 0 auto;
 	padding: 10px;
 	width: 600px;
-	height: 1000px;
-	overflow: scroll;
 
+}
+
+a.more {
+	display: none;
+	text-align: center;
+	
 }
 
 .about {
@@ -37,16 +40,16 @@ h1 {
 }
 
 ul {
-	margin-left: auto;
-	margin-right: auto;
+	padding-left: 0px;
 }
 
 #search-results li {
 	text-align: center;
 	list-style: none;
-	float: left;
-	background-color: #ffcc00;
+	padding-top: 2px;
+	background-color: #dd7b1b;
 	border-radius: 3px;
+	margin: 0 auto;
 }
 
 #search-results li img{
@@ -58,3 +61,4 @@ ul {
 	text-align: center;
 	color: black;
 }
+
